@@ -1,4 +1,5 @@
-# Docker Installation 
+# Docker Installation
+----------------------
 ```bash
 
 sudo yum update -y
@@ -17,6 +18,7 @@ docker-compose --version
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Ansible Installation
+-----------------------
 #### Master node 
 ```bash
 curl -sL https://raw.githubusercontent.com/sakit333/ansible_insta/refs/heads/main/master_ansible_node.sh | bash
@@ -28,7 +30,7 @@ curl -sL https://raw.githubusercontent.com/sakit333/ansible_insta/refs/heads/mai
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Kubernetes's Installation
-
+----------------------------
 #### Master node
 ```bash
 curl -sL https://raw.githubusercontent.com/sakit333/kubernetes-v1.30.10-cluster-kubeadmdm/refs/heads/main/master_kube.sh | bash
