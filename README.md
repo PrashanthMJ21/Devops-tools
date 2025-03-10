@@ -14,6 +14,7 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-c
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Ansible Installation
 #### Master node 
@@ -24,6 +25,7 @@ curl -sL https://raw.githubusercontent.com/sakit333/ansible_insta/refs/heads/mai
 ```bash
 curl -sL https://raw.githubusercontent.com/sakit333/ansible_insta/refs/heads/main/worker_ansible_node.sh | bash
 ```
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Kubernetes's Installation
 
