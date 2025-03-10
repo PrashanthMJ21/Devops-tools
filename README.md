@@ -1,4 +1,4 @@
-## Docker Installation 
+# Docker Installation 
 ```bash
 
 sudo yum update -y
@@ -15,6 +15,12 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
 
-## Ansible Installation
-# Master node 
+# Ansible Installation
+## Master node 
 ```bash
+curl -sL https://raw.githubusercontent.com/sakit333/ansible_insta/refs/heads/main/master_ansible_node.sh | bash
+```
+## Worker node
+```bash
+curl -sL https://raw.githubusercontent.com/sakit333/ansible_insta/refs/heads/main/worker_ansible_node.sh | bash
+```
