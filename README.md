@@ -24,3 +24,14 @@ curl -sL https://raw.githubusercontent.com/sakit333/ansible_insta/refs/heads/mai
 ```bash
 curl -sL https://raw.githubusercontent.com/sakit333/ansible_insta/refs/heads/main/worker_ansible_node.sh | bash
 ```
+
+# Kubernetes's Installation
+
+### Master node
+```bash
+curl -sL https://raw.githubusercontent.com/sakit333/kubernetes-v1.30.10-cluster-kubeadmdm/refs/heads/main/master_kube.sh | bash
+```
+### Worker node
+```bash
+curl -sL https://raw.githubusercontent.com/sakit333/kubernetes-v1.30.10-cluster-kubeadmdm/refs/heads/main/sak_worker_kube.sh | bash
+```
