@@ -16,22 +16,22 @@ docker-compose --version
 ```
 
 # Ansible Installation
-## Master node 
+#### Master node 
 ```bash
 curl -sL https://raw.githubusercontent.com/sakit333/ansible_insta/refs/heads/main/master_ansible_node.sh | bash
 ```
-## Worker node
+#### Worker node
 ```bash
 curl -sL https://raw.githubusercontent.com/sakit333/ansible_insta/refs/heads/main/worker_ansible_node.sh | bash
 ```
 
 # Kubernetes's Installation
 
-### Master node
+#### Master node
 ```bash
 curl -sL https://raw.githubusercontent.com/sakit333/kubernetes-v1.30.10-cluster-kubeadmdm/refs/heads/main/master_kube.sh | bash
 ```
-### Worker node
+#### Worker node
 ```bash
 curl -sL https://raw.githubusercontent.com/sakit333/kubernetes-v1.30.10-cluster-kubeadmdm/refs/heads/main/sak_worker_kube.sh | bash
 ```
