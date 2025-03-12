@@ -39,10 +39,9 @@ curl -sL https://raw.githubusercontent.com/sakit333/kubernetes-v1.30.10-cluster-
 ```bash
 curl -sL https://raw.githubusercontent.com/sakit333/kubernetes-v1.30.10-cluster-kubeadmdm/refs/heads/main/sak_worker_kube.sh | bash
 ```
-
-
-#
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Nexus Installation 
+---------------------
 📦 **Automated Nexus Installation & Configuration**\
 📍 **For Ubuntu EC2 Instances** | 🌐 **Self-hosted Repository Manager**
 
